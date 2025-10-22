@@ -1,0 +1,10 @@
+*.png
+*.jpg
+*.pdf
+/azimuth_elevation_plots
+/Elevation_Calcs?.ipynb
+/Elevation.ipynb
+__pycache__
+/2D_Elevation_Calcs.ipynb
+/3D_Elevation_Calcs.ipynb
+trex-rgb-asi_data
