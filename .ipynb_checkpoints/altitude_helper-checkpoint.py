@@ -59,8 +59,8 @@ def project_lat_lon(az_arr, el_arr, lat_camera, lon_camera, h, skymap_110_mask):
         skymap_110_mask = mask for where the latitude and longitude are NaNs in the ground truth lat110 and lon110 projections
 
     Outputs:
-        lat_aurora_arr = latitudes of the aurora projected to given height h
-        lon_aurora_arr = longitudes of the aurora project to give height h 
+        lat_aurora_arr = latitudes of the aurora projected to given height h (2D array same dimensions as original image, give projected latitude of each pixel)
+        lon_aurora_arr = longitudes of the aurora project to give height h (2D array same dimensions as original image, give projected longitude of each pixel)
     '''
 
     # convert to radians + applying mask 
